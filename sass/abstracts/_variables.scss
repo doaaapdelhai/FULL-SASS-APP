@@ -1,0 +1,107 @@
+// COLORS
+
+$color-primary:#050872;
+// $color-primary:red;
+$color-primary-light:#050872;
+$color-primary-dark:#070335;
+
+$color-secondary-light:#ad00ab;
+$color-secondary-dark:#0f335c;
+
+$color-tretiary-light:#760c63;
+$color-tretiary-dark:#470b4b;
+
+$color-gray-light-1:#f7f7f7;
+$color-gray-light-2:#eee;
+
+$color-gray-dark:#777;
+$color-gray-dark-2:#999;
+$color-gray-dark-3:#070335;
+
+$color-white:#fff;
+$color-black:#000;
+
+
+// FONTS
+
+$default-font-size:1.6rem;
+
+// GRID
+$grid-width:114rem;
+$gutter-vertical:8rem;
+$gutter-vertical-small:6rem;
+$gutter-horizontal:6rem;
+
+
+
+// .row {
+//     max-width: $grid-width;
+//     margin: 0 auto;
+//     display: grid;
+//     grid-template-columns: 1fr 1fr; // عمودين متساويين للنص والصور
+//     gap: $gutter-horizontal; // الفاصل بين العمودين
+//     background-color: red;
+  
+//     &:not(:last-child) {
+//       margin-bottom: $gutter-vertical;
+  
+//       @include respond(tab-port) {
+//         margin-bottom: $gutter-vertical-small;
+//       }
+//     }
+  
+//     @include respond(tab-port) {
+//       grid-template-columns: 1fr 1fr; // الاحتفاظ بعمودين حتى في الشاشات الصغيرة
+//       min-width: 60rem;
+//       padding: 10px 3rem;
+//       align-items: center;
+//     }
+  
+//     @include respond(phone) {
+//       grid-template-columns: 1fr; // تغيير إلى عمود واحد فقط على الشاشات الصغيرة جداً (مثل الهاتف)
+//     }
+  
+//     .col-l-of-2 {
+//       text-align: left;
+  
+//       &:last-child {
+//         text-align: right;
+//       }
+//     }
+//   }
+  
+
+// .row {
+//     max-width: $grid-width;
+//     margin: 0 auto;
+//     display: grid;
+//     grid-template-columns: 1fr 1fr; // توزيع العنصرين في عمودين متساويين
+//     gap: $gutter-horizontal; // الفاصل بين العنصرين
+//     background-color: red;
+    
+//     &:not(:last-child) {
+//       margin-bottom: $gutter-vertical;
+  
+//       @include respond(tab-port) {
+//         margin-bottom: $gutter-vertical-small;
+//       }
+//     }
+  
+//     @include respond(tab-port) {
+//       grid-template-columns: 1fr; // تحويل العناصر إلى عمود واحد على الشاشات الصغيرة
+//       min-width: 50rem;
+//       padding: 10px 4rem;
+//       background-color: green;
+//       align-items: center;
+//     }
+  
+//     .col-l-of-2 {
+//       text-align: left;
+  
+//       &:last-child {
+//         text-align: right;
+//       }
+//     }
+//   }
+  
+
