@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <!-- googel fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"/>
+           <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
           <!-- css link -->
+           
     <link rel="stylesheet" href="sass/main.css" />
     <link rel="shortcut icon" type="image/png" href="tech/logo-2.png" />
 
@@ -138,7 +141,8 @@
           </section>
             <!--================== END MAIN SECTION ====================-->
            <!--================== START FEATURES SECTION ===============-->
-          <section class="section-features">
+           
+          <!-- <section class="section-features">
             <div class="row">
 
   
@@ -182,7 +186,7 @@
                 </div> 
               </div>
             </div>
-           </section>
+           </section> -->
            <!--================== END FEATURES SECTION ===============-->
            <!--================== START TOURS SECTION ===============-->
            <section class="section-tours" id="section-tours">
@@ -291,20 +295,177 @@
                 </div>
         
             </div>
-            <div class="u-center-text u-margin-top-huge">
-                <a href="#" class="btn btn--green">Discover All Technology</a>
-            </div>
+            <!-- <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn btn--ggreen">Discover All Technology</a>
+            </div> -->
            </section>
            <!--================== END TOURS SECTION ===============-->
            <!--================== START STORIES SECTION =============-->
+           <section class="section-stories">
+            <div class="bg-video">
+              <video 
+              autoplay
+               muted 
+               loop 
+               class="bg-video__content"
+               src="tech/world.mp4" type="video/mp4"
+               >
+               Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="u-center-text u-margin-bottom-big">
+              <h2 class="heading-secondary">we make pepole love technology</h2>
+            </div>
 
+            <div class="row">
+              
+            <div class="story">
+              <figure class="story__shape">
+                <img src="tech/img-3.jpg" alt="pesrson 1" class="story__img">
+                <figcaption class="story__caption">Jack smith</figcaption>
+              </figure>
+              <div class="story__text">
+                <h3 class="headting-tertiary u-margin-bottom-small">
+                  techonlogy changing the live of pepole
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus praesentium ipsam a sint, maxime tempore quo eius porro autem blanditiis
+                </p>
+              </div>
+            </div>
+            </div>
+              
+
+            <div class="row">
+              
+              <div class="story">
+                <figure class="story__shape">
+                  <img src="tech/img-4.jpg" alt="pesrson 1" class="story__img">
+                  <figcaption class="story__caption">Hanny smith</figcaption>
+                </figure>
+                <div class="story__text">
+                  <h3 class="headting-tertiary u-margin-bottom-small">
+                    techonlogy changing the live of pepole
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus praesentium ipsam a sint, maxime tempore quo eius porro autem blanditiis
+                  </p>
+                </div>
+              </div>
+              </div>
+
+
+
+              <div class="u-center-text u-margin-top-huge">
+                <a href="#" class=" btn btn--ggreen">Read all storties &rarr;</a>
+
+              </div>
+
+
+
+            
+
+           </section>
            <!--================== END STORIES SECTION ===============-->
+           <!--================== START BOOK SECTION ===============-->
+           <section class="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">Start Booking Now</h2>
+                            </div>
+        
+                            <div class="form__group">
+                                <input
+                                    type="text"
+                                    class="form__input"
+                                    placeholder="Full name"
+                                    id="name"
+                                    required
+                                />
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+        
+                            <div class="form__group">
+                                <input
+                                    type="email"
+                                    class="form__input"
+                                    placeholder="Email Address"
+                                    id="email"
+                                    required
+                                />
+                                <label for="email" class="form__label">Email Address</label>
+                            </div>
+        
+                            <div class="form__group u-margin-bottom-medium">
+                                <div class="form__radio-group">
+                                    <input
+                                        type="radio"
+                                        class="form__radio-input"
+                                        id="small"
+                                        name="size"
+                                        required
+                                    />
+                                    <label for="small" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Small group
+                                    </label>
+                                </div>
+        
+                                <div class="form__radio-group">
+                                    <input
+                                        type="radio"
+                                        class="form__radio-input"
+                                        id="large"
+                                        name="size"
+                                        required
+                                    />
+                                    <label for="large" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Large group
+                                    </label>
+                                </div>
+                            </div>
+        
+                            <div class="form__group">
+                                <button class="btn btn--green">Next step &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+           <!--================== END BOOK SECTION ===============-->
 
-
-
+           <!--================== START FOOTER SECTION ===============-->
+           <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-logo">
+                <img src="tech/logo-1.png" alt="Your Logo">
+              </div>
+              <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+              </div>
+              <div class="footer-social">
+                <a href="#" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; @doaaapbdelhai 2024. All rights reserved.</p>
+            </div>
+          </footer>
         </main>
-       
-
-
   </body>
 </html>

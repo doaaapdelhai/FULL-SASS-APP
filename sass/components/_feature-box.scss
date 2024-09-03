@@ -1,41 +1,96 @@
-.feature-box {
-    background-color: rgba($color-white, .8);
-    font-size: 1.5rem;
-    padding: 2.5rem;
-    text-align: center;
-    border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-    transition: transform .3s, background-color .3s;
+// // .section-features {
+// //     background-color: $color-primary-dark;
+// //     height: 560px;
+// // }
 
-    @include respond(tab-port) {
-        padding: 2rem;
-    }
+// // .feature-box {
+// //     background-color: rgba($color-white, .8);
+// //     font-size: 1.5rem;
+// //     padding: 2.5rem;
+// //     text-align: center;
+// //     border-radius: 3px;
+// //     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+// //     transition: transform .3s, background-color .3s;
 
-    &__icon {
-        font-size: 6rem;
-        margin-bottom: .5rem;
-        display: inline-block;
-        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-        color: transparent;
+// //     @include respond(tab-port) {
+// //         padding: 2rem;
+// //     }
 
-        @include respond(tab-port) {
-            margin-bottom: 0;
-            background-color: rgba($color-white, .8);
+// //     &__icon {
+// //         font-size: 6rem;
+// //         margin-bottom: .5rem;
+// //         display: inline-block;
+// //         background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+// //         color: transparent;
 
-        }
-    }
+// //         @include respond(tab-port) {
+// //             margin-bottom: 0;
+// //             background-color: rgba($color-white, .8);
+// //         }
+// //     }
 
-    &:hover {
-        transform: translateY(-2rem) scale(1.04);
-        background-color: rgba($color-white, .8);
-    }
-}
-@media screen and (max-width: 500px) {
-    .section-features {
-        background-color: red ;
-    }
-}
+// //     &:hover {
+// //         transform: translateY(-2rem) scale(1.04);
+// //         background-color: rgb(197, 201, 197);  // تغيير خلفية الكارت إلى الأخضر عند الهوفر
+// //     }
+// // }
+
+// // @media screen and (max-width: 500px) {
+// //     .section-features {
+// //         background-color: red;
+// //     }
+// // }
 
 
 
-  
+
+// .features-section {
+//     background-color: red; // خلفية حمراء
+//     height: 470px;
+//     padding: 5rem 4rem; // إضافة حشو علوي وسفلي
+// }
+
+// .features-row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     gap: 1.5rem; // المسافة بين الكارتات
+// }
+
+// .features-col {
+//     flex: 1 1 calc(25% - 1.5rem); // تقسيم الأعمدة
+//     box-sizing: border-box;
+// }
+
+// .feature-card {
+//     background-color: yellow; // خلفية صفراء للكارتات
+//     font-size: 1.5rem;
+//     padding: 2rem;
+//     text-align: center;
+//     border-radius: 8px;
+//     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+//     transition: border-color .3s, box-shadow .3s, transform .3s;
+//     position: relative;
+
+//     &__icon {
+//         font-size: 4rem;
+//         color: black;
+//         margin-bottom: 1rem;
+//         display: inline-block;
+//     }
+
+//     &__title {
+//         font-size: 1.5rem;
+//         margin-bottom: 1rem;
+//     }
+
+//     &__text {
+//         font-size: 1rem;
+//     }
+
+//     &:hover {
+//         border: 2px solid green; // إضافة بوردر أخضر عند الهوفر
+//         box-shadow: 0 2rem 6rem rgba(0, 255, 0, 0.3); // إضافة ظل أخضر
+//         transform: translateY(-1rem); // تحريك الكارت لأعلى
+//     }
+// }

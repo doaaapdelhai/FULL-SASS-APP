@@ -5,25 +5,22 @@
 
     @include respond(tab-port){
         padding: 20rem  0;
-
     }
-
 }
-
-
 // ======================
 .section-features {
-    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 1), rgba($color-primary-dark, 1));
-    background-size: cover;
-    transform: skewY(-6deg);
-    margin-top: -10rem;
+    // background-image: linear-gradient(to right bottom, rgba($color-primary-light, 1), rgba($color-primary-dark, 1));
+    // background-size: cover;
+    // transform: skewY(-6deg);
+    // // margin-top: -10rem;
 
-    & > * {
-        transform: skewY(7deg);
-    }
+    // & > * {
+    //     transform: skewY(7deg);
+    // }
 
     @include respond(tab-port) {
-        padding: 6rem 0;
+        padding: 0rem 0;
+        // =============================
     }
 }
 
@@ -45,6 +42,77 @@
 // =========================
 .section-tours{
     background-color: $color-gray-light-1;
-    padding: 25rem 0 15rem 0;
+    // padding: 25rem 0 15rem 0;
+    // padding: 5rem 1rem ;
     margin-top: -12rem;
 }
+
+// ======================
+.section-stories{
+    position: relative;
+    padding: 15rem 0;
+
+    @include respond(tab-port){
+        padding: 10rem 0;
+    }
+
+}
+// =======================
+.section-book {
+    padding: 15rem 0;
+    background: $color-gray-dark-3;
+  
+    @include respond(tab-port) {
+      padding: 10rem 0;
+    }
+  }
+  
+  .book {
+    background-image: linear-gradient(105deg, rgba($color-white, 0.9) 0%, rgba($color-white, 0.9) 50%, transparent 50%),
+      url(../../tech/img-2.jpg);
+    background-size: cover; 
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+  
+    @include respond(tab-land) {
+      background-image: linear-gradient(105deg, rgba($color-white, 0.9) 0%, rgba($color-white, 0.9) 65%, transparent 65%),
+        url(../../tech/img-2.jpg);
+    }
+  
+    &__form {
+      width: 50%;
+      padding: 6rem;
+  
+      @include respond(tab-land) {
+        width: 65%;
+      }
+  
+      @media screen and (min-width: 1200px) {
+        width: 450px;
+      }
+  
+      @include respond(tab-port) {
+        width: 750px;  
+        height: 650px;
+         }
+    }
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .section-book {
+      padding: 5rem 0; 
+    }
+  
+    .book {
+      background-image: linear-gradient(105deg, rgba($color-white, 0.95) 0%, rgba($color-white, 0.95) 100%);
+      background-size: contain; 
+    }
+  
+    .book__form {
+      width: 100%; 
+      background-color: #eee;
+      padding: 3rem; 
+    }
+  }
+// =====================
